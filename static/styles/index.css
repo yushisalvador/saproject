@@ -1,0 +1,76 @@
+body {
+background: linear-gradient(109.6deg, rgb(245, 239, 249) 30.1%, rgb(207, 211, 236) 100.2%);
+color: #24527a  ;
+font-family: 'Merriweather', serif;
+}
+
+.twitter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+}
+
+.search-tweets {
+   display: flex;
+  flex-direction: column;
+}
+
+.input-tweet {
+  margin-top: 10%;
+}
+
+.banner {
+  padding-top:10%;
+  padding-bottom:10%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 70px;
+}
+
+ .texts {
+   display:flex;
+   flex-direction: column;
+   margin-top:40px;
+ }
+
+.description {
+  font-size:30px;
+  width:700px;
+}
+
+.options {
+  padding-top: 50px;
+  padding-bottom:50px;
+  display:flex;
+  flex-direction:row;
+ justify-content:space-around;
+}
+
+
+.desc {
+  font-size:30px;
+}
+
+.twitter ,
+.phrases {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width:50%;
+  margin:30px; 
+  text-align:center;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+#svg:hover {
+  color:white;
+}
+
+#twt:hover {
+ color:#1968a4
+}

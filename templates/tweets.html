@@ -1,0 +1,25 @@
+{%extends 'search.html'%} {%block tweet%}
+
+<div class="results">
+  <div id="contact">
+    <h1>Sentiment Analysis Result :</h1>
+  </div>
+  <div class="res_tweets">
+    <ul>
+      <li>{{pos}}% of tweets include positive sentiment</li>
+      <li>{{neu}}% of tweets include neutral sentiment</li>
+      <li>{{neg}}% of tweets include negative sentiment</li>
+    </ul>
+  </div>
+  <div class="chart">
+    <table class="table table-bordered">
+      {% for value in result %}
+      <tr>
+        <th>{{value["text"]}}</th>
+        <td>{{value["sentiment"]}}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
+{%endblock%}

@@ -1,0 +1,15 @@
+{%extends 'phrase.html'%} {%block result%}
+<div>
+    <div>
+    <div id="contact">
+      <h1>Sentiment Analysis Result : </h1>
+   </div>   
+      
+      <div class="search_phrase res">Phrase: {{search_phrase}} 
+  </div>
+        <div class="pos res">Positive: {{pos}}%</div>
+        <div class="neu res">Neutral: {{neu}}%</div>
+        <div class="neg res">Negative: {{neg}}%</div>
+    </div>
+    {%endblock%}
+</div>
