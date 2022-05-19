@@ -78,4 +78,4 @@ def analyze_phrase(phrase):
 
 
 def percentage(part, whole):
-    return 100 * float(part) / float(whole)
+    return round(100 * float(part) / float(whole))
