@@ -1,6 +1,6 @@
 ## Sentiment Analysis Project
 
-![image](https://user-images.githubusercontent.com/84162315/173298487-b91d182a-f296-456c-aac9-ccbac0b7e52e.png)
+![image](https://user-images.githubusercontent.com/84162315/173298629-2cc9030d-e576-48e1-a9af-16dadbf0d7cc.png)
 
 
 Sentiment Analysis project for tweets using TextBlob and Tweepy. 
