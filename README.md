@@ -7,8 +7,8 @@ SA Project is a Natural Language Processing App that helps analyze sentiments fr
 
 ## Technologies used
 
--Flask
--HTML
--CSS
+- Flask
+- HTML
+- CSS
 
 project link: https://saproject.yushiko-cloeclo.repl.co
